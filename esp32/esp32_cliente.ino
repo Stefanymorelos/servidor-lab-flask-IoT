@@ -6,8 +6,8 @@ const char* ssid     = "iPhone de Stefany";
 const char* password = "TU_CONTRASENA_AQUI";
 
 // IP publica de tu instancia EC2 (la misma que usaste en Postman)
-const char* servidor_get  = "http://100.58.219.41/";
-const char* servidor_post = "http://100.58.219.41/data";
+const char* servidor_get  = "http://3.231.211.109/";
+const char* servidor_post = "http://3.231.211.109/data";
 // ------------------------------------
 
 void conectarWiFi() {
