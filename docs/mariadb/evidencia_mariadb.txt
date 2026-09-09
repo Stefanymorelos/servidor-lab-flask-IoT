@@ -2315,3 +2315,7 @@ Sep 09 23:14:57 ip-172-31-7-50.ec2.internal python3[28081]: 34.232.9.233 - - [09
 Sep 09 23:15:10 ip-172-31-7-50.ec2.internal python3[28081]: 52.23.177.192 - - [09/Sep/2026 23:15:10] "PUT /registros/1 HTTP/1.1" 400 -
 Sep 09 23:15:31 ip-172-31-7-50.ec2.internal python3[28081]: 32.197.83.155 - - [09/Sep/2026 23:15:31] "PUT /registros/1 HTTP/1.1" 200 -
 Sep 09 23:15:44 ip-172-31-7-50.ec2.internal python3[28081]: 32.197.83.155 - - [09/Sep/2026 23:15:44] "GET /registros/1 HTTP/1.1" 200 -
+Sep 09 23:26:54 ip-172-31-7-50.ec2.internal python3[28081]: 93.158.90.244 - - [09/Sep/2026 23:26:54] code 400, message Bad request version ('À\x13À')
+Sep 09 23:26:54 ip-172-31-7-50.ec2.internal python3[28081]: 93.158.90.244 - - [09/Sep/2026 23:26:54] "\x16\x03\x01\x01\x00\x01\x00\x00ü\x03\x03à$ÜLJÅo\x14¯\x8fÅáí¯»Ñ\x97éºõª{ kÕÚ\x90ì\x88oè\x8b ßÝÇðô¥ûàQëèf\x83¯nBË/Ì`\x19¸\x90J\x09]YXfãrÞ\x00\x1aÀ+À/À,À0Ì©Ì¨À\x09À\x13À" HTTPStatus.BAD_REQUEST -
+Sep 09 23:26:54 ip-172-31-7-50.ec2.internal python3[28081]: 93.158.90.242 - - [09/Sep/2026 23:26:54] "GET / HTTP/1.1" 200 -
+Sep 09 23:43:19 ip-172-31-7-50.ec2.internal python3[28081]: 32.197.83.155 - - [09/Sep/2026 23:43:19] "DELETE /registros/1 HTTP/1.1" 200 -
